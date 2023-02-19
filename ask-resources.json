@@ -9,9 +9,6 @@
         "default": {
           "src": "./lambda"
         }
-      },
-      "skillInfrastructure": {
-        "type": "@ask-cli/hosted-skill-deployer"
       }
     }
   }
