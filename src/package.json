@@ -1,0 +1,22 @@
+{
+  "name": "@cognitora/alexa-starter-skill-template",
+  "version": "1.0.0",
+  "description": "Cogitora Alexa starter skill template",
+  "main": "index.js",
+  "scripts": {
+    "compile": "tsc --project ../tsconfig.json",
+    "build": "npm run compile && npx copyfiles *.json ../lambda",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Cognitora",
+  "license": "Apache License",
+  "dependencies": {
+    "ask-sdk-core": "^2.7.0",
+    "ask-sdk-model": "^1.19.0",
+    "aws-sdk": "^2.326.0"
+  },
+  "devDependencies": {
+    "@types/node": "^18.14.0",
+    "copyfiles": "^2.4.1"
+  }
+}

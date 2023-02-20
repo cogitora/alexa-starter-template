@@ -1,7 +1,7 @@
 {
   "interactionModel": {
     "languageModel": {
-      "invocationName": "cogitora starter",
+      "invocationName": "starter template",
       "intents": [
         {
           "name": "AMAZON.CancelIntent",
